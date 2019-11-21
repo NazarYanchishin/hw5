@@ -515,6 +515,25 @@ nav div {
     top: 0;
     left: 0;
 }
+.blue_hr{
+    position: absolute;
+    top: 9px;
+    left: 0;
+    width: 18px;
+    height: 2px;
+    background-color: #151F32;
+    border: none;
+}
+.orange_hr{
+    position: absolute;
+    top: 9px;
+    left: 0;
+    width: 18px;
+    height: 2px;
+    background-color: #E75A31;
+    border: none;
+}
+
 .diagram_cont{
     position: relative;
     top: 212px;
