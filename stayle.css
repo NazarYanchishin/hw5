@@ -979,6 +979,7 @@ nav div {
     font-size: 17px;
     line-height: 20px;
     color: #032F48;
+    cursor: pointer;
 }
 .footer_container{
     width: 850px;
