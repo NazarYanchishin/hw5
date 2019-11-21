@@ -239,9 +239,10 @@ nav div {
 .past_right_bloc {
     width: 500px;
     height: 750px;
+    margin: 0 0 0 94px;
 }
 
-#past {
+.past_right_bloc_text{
     margin: 213px 15px 1px 109px;
     top: 930px;
     left: 846px;
@@ -264,7 +265,7 @@ nav div {
     color: #DDDFE0;
 }
 
-.past_right_bloc p {
+.past_lorem {
     margin: 53px 0 0 110px;
     font-style: normal;
     font-weight: normal;
@@ -627,23 +628,6 @@ nav div {
     border: none;
     cursor: pointer;
 }
-/*.new_container{*/
-/*    max-width: 1160px;*/
-/*    margin: auto;*/
-/*}*/
-/*.new_left{*/
-/*    flex-basis: 440px;*/
-/*    min-height: 440px;*/
-/*    margin-right: 514px;*/
-/*    background-image: url(./img/new_img.svg);*/
-/*    background-repeat: no-repeat;*/
-/*    background-position: center;*/
-/*    position: relative;*/
-/*}*/
-/*.new_left_content{*/
-/*    background-color: #fff;*/
-/*    padding: 20px 20px 5px 20px;*/
-/*}*/
 .next_bloc {
     display: flex;
     margin: 0 0 0 108px;
