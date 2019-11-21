@@ -351,7 +351,7 @@ nav div {
 }
 
 .zero {
-    pposition: relative;
+    position: relative;
     font-size: 95px;
     font-weight: 900;
     right: -112px;
@@ -413,7 +413,7 @@ nav div {
 .new_left_bloc{
     position: relative;
     display: flex;
-    margin: 0 0 0 94px;
+    margin: 0 0 0 108px;
 }
 .new_left_content{
      position: absolute;
@@ -513,6 +513,70 @@ nav div {
     position: absolute;
     top: 0;
     left: 0;
+}
+.diagram_cont{
+    position: relative;
+    top: 212px;
+    left: 38px;
+    display: flex;
+    justify-content: space-between;
+    height: 108px;
+    width: 277px;
+    transform: rotate(-180deg);
+}
+.diagram_column{
+    margin: 0 3px;
+    width: 12px;
+    height: 50%;
+    background-color: #ccc;
+}
+.diagram_column_25{
+    margin: 0 3px;
+    width: 12px;
+    height: 25%;
+    background-color: #ccc;
+}
+.diagram_column_75{
+    margin: 0 3px;
+    width: 12px;
+    height: 75%;
+    background-color: #ccc;
+}
+.diagram_column_min{
+    margin: 0 3px;
+    width: 12px;
+    height: 15%;
+    background-color: #E75A31;
+}
+.min{
+    position: relative;
+    top: 21px;
+    left: 110px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 10px;
+    width: 16px;
+    height: 10px;
+    transform: rotate(90deg);
+}
+.diagram_column_max{
+    margin: 0 3px;
+    width: 12px;
+    height: 88%;
+    background-color: #E75A31;
+}
+.max{
+    position: relative;
+    top: 100px;
+    left: 188px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 10px;
+    width: 15px;
+    height: 10px;
+    transform: rotate(90deg);
 }
 
 .new_right_cont{
@@ -933,7 +997,7 @@ nav div {
     color: #032F48;
 }
 .footer_container{
-    width: 1000px;
+    width: 850px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -951,7 +1015,7 @@ nav div {
     font-size: 12px;
     line-height: 20px;
 }
-.footer_head a{
+.footer_head{
     width: 51px;
     height: 20px;
     font-style: normal;
@@ -970,4 +1034,7 @@ nav div {
     line-height: 163.3%;
     color: #000000;
     text-decoration: none;
+}
+.help{
+    margin: 0 0 20px 0;
 }
