@@ -745,6 +745,7 @@ nav div {
 .bottom_cut {
     font-weight: normal;
     font-size: 12px;
+    padding: 13px 0;
     line-height: 20px;
     font-style: normal;
     width: 175px;
@@ -800,6 +801,7 @@ nav div {
 
 .bottom_phone {
     width: 175px;
+    padding: 13px 0;
     height: 40px;
     font-style: normal;
     font-weight: normal;
@@ -846,6 +848,7 @@ nav div {
 .text_over_subscribe {
     width: 175px;
     height: 20px;
+    padding: 13px 0;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
